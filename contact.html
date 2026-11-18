@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Ibrahim Musa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+     
+     <header class="site-header">
+          <nav class="navbar" aria-label="Main navigation">
+               
+            <a href="index.html" class="logo">IM.</a>
+            
+            <button type="button" id="menu-toggle"  class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+            
+            <ul class="nav-links">
+            <li>
+               <a href="index.html" class="nav-link">Home</a>
+            </li>   
+            
+            <li>
+                 <a href="about.html" class="nav-link">About</a>
+            </li>  
+            
+            <li>
+                 <a href="projects.html" class="nav-link">Projects</a>
+            </li>
+            
+            <li>
+                 <a href="skills.html" class="nav-link">Skills</a>
+            </li>
+            
+            <li>
+                 <a href="contact.html" class="nav-link nav-contact"  id="nav-link">Contact</a>
+            </li>
+            </ul>
+               
+          </nav>
+     </header>
+     
+     <!-- =========================
+     CONTACT PAGE CONTENT
+========================= -->
+
+<main>
+
+    <!-- CONTACT HERO SECTION -->
+    <section class="contact-hero">
+
+        <div class="contact-hero-content">
+
+            <p class="section-label">
+                GET IN TOUCH
+            </p>
+
+            <h1>Let's Work Together</h1>
+
+            <p>
+                Have a project in mind, a question, or an opportunity?
+                I'd love to hear from you. Feel free to reach out.
+            </p>
+
+        </div>
+
+    </section>
+
+<!-- =========================
+     CONTACT DETAILS AND FORM
+========================= -->
+
+<section class="contact-section">
+
+    <div class="contact-container">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                I'm open to frontend development opportunities,
+                freelance projects and meaningful collaborations.
+                Feel free to contact me.
+            </p>
+
+            <!-- Email Contact -->
+            <div class="contact-item">
+
+                <h3>Email</h3>
+
+                <a href="mailto:ibrahim0810musa@gmail.com">
+                    ibrahim0810musa@gmail.com
+                </a>
+
+            </div>
+
+            <!-- WhatsApp Contact -->
+            <div class="contact-item">
+
+                <h3>WhatsApp</h3>
+
+                <a href="https://wa.me/2348108367772"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Chat with me on WhatsApp
+                </a>
+
+            </div>
+
+            <!-- Availability -->
+            <div class="contact-item">
+
+                <h3>Availability</h3>
+
+                <p>Open to opportunities</p>
+
+            </div>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+
+            <h2>Send Me a Message</h2>
+
+            <p>
+                Fill in the form below and I'll get back to you.
+            </p>
+
+            <form
+                action="https://formspree.io/f/xyewwbqy"
+                method="POST"
+                class="contact-form">
+
+                <!-- Visitor Name -->
+                <div class="form-group">
+
+                    <label for="name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required>
+
+                </div>
+
+                <!-- Visitor Email -->
+                <div class="form-group">
+
+                    <label for="email">Your Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required>
+
+                </div>
+
+                <!-- Message Subject -->
+                <div class="form-group">
+
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="What is this about?"
+                        required>
+
+                </div>
+
+                <!-- Visitor Message -->
+                <div class="form-group">
+
+                    <label for="message">Your Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here..."
+                        required></textarea>
+
+                </div>
+
+                <button type="submit" class="submit-button">
+                    Send Message
+                </button>
+
+<!-- Form submission feedback -->
+<p
+    id="form-status"
+    class="form-status"
+    role="status"
+    aria-live="polite">
+</p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+</main>
+     
+     
+     
+     
+     <footer class="site-footer">
+
+    <div class="footer-content">
+
+        <!-- Footer logo -->
+        <a href="index.html" class="footer-logo">IM.</a>
+
+        <!-- Short introduction -->
+        <p class="footer-description">
+            Building modern, responsive and interactive web experiences.
+        </p>
+
+        <!-- Social media links -->
+        <div class="social-links">
+
+            <a href="https://github.com/ibrahim0810musa-gif"          class="social-link">GitHub</a>
+
+            <a href="https://wa.me/2348108367772"
+   class="social-link"
+   target="_blank"
+   rel="noopener noreferrer">
+   WhatsApp
+</a>
+            <a href="mailto:ibrahim0810musa@gmail.com"
+               class="social-link">Email</a>
+
+            <span class="social-link">LinkedIn (Coming Soon)</span>
+
+        </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <p class="copyright">
+        &copy; 2026 Ibrahim Musa. All Rights Reserved.
+    </p>
+
+</footer>
+     </body>
+     </html>
+     
