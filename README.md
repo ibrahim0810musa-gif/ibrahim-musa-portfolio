@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This website showcases my frontend development
 
 ## Live Website
 
-[Visit My Portfolio](YOUR_NETLIFY_WEBSITE_URL)
+[Visit my portfolio (https://ibrahim0810musa-gif.github.io/ibrahim-musa-portfolio/)
 
 ## About Me
 
