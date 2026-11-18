@@ -79,5 +79,5 @@ No build tools or package installation are required.
 I'm open to suitable frontend development opportunities and collaborations.
 
 ---
-
+This portfolio is automatically deployed using Netlify.
 © 2026 Ibrahim Musa. All rights reserved.
